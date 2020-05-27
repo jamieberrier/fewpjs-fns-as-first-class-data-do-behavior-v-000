@@ -11,7 +11,12 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time) {
+  num = time.parseInt()
+  if (num) {
 
+  } else {
+
+  }
 }
 /* Write your implementation of displayMessage() */
 // When the function runs it should update the text inside the #greeting node with the content of the argument.
