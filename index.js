@@ -26,5 +26,5 @@ function greet(timeString) {
 // It does not return anything.
 // <h1 id="greeting"></h1>
 function displayMessage(greeting) {
-  
+  document.querySelector('h1#greeting').textContent = greeting;
 }
