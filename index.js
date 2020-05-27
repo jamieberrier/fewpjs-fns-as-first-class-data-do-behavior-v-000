@@ -15,8 +15,10 @@ function greet(time) {
   const hour = parseInt(num[0], 10);
   if (hour < 12) {
 
+  } else if (true) {
+    
   } else {
-
+    
   }
 }
 /* Write your implementation of displayMessage() */
