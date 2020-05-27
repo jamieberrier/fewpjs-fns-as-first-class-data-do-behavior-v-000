@@ -27,6 +27,5 @@ function greet(timeString) {
 // It does not return anything.
 // <h1 id="greeting"></h1>
 function displayMessage(message) {
-  const greeting_message = message;
-  document.getElementById('greeting').innerText = greeting_message;
+  document.getElementById('greeting').innerText = message;
 }
