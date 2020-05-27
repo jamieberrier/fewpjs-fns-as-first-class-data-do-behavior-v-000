@@ -10,9 +10,9 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
-function greet(time) {
-  const num = time.split(':');
-  const hour = parseInt(num[0], 10);
+function greet(timeString) {
+  const time = timeString.split(':');
+  const hour = parseInt(time[0], 10);
   if (hour < 12) {
     displayMessage('Good Morning');
   } else if (hour.between?(12, 17)) {
