@@ -11,7 +11,7 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 function greet(time) {
-  num = time.split(:);
+  const num = time.split(:);
   if (num) {
 
   } else {
