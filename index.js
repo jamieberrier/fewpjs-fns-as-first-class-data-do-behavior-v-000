@@ -21,8 +21,6 @@ function greet(timeString) {
   } else {
     const message = 'Good Evening';
   }
-
-  return displayMessage(message);
 }
 /* Write your implementation of displayMessage() */
 // When the function runs it should update the text inside the #greeting node with the content of the argument.
