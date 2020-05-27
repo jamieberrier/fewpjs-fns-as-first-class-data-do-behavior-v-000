@@ -17,5 +17,5 @@ function greet(time) {
 // When the function runs it should update the text inside the #greeting node with the content of the argument.
 // It does not return anything.
 function displayMessage(greeting) {
-  
+
 }
