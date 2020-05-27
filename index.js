@@ -14,11 +14,11 @@ function greet(time) {
   const num = time.split(':');
   const hour = parseInt(num[0], 10);
   if (hour < 12) {
-
-  } else if (true) {
-
+    displayMessage('Good Morning');
+  } else if (hour.between(12, 17)) {
+    displayMessage('Good Afternoon');
   } else {
-
+    displayMessage('Good Evening');
   }
 }
 /* Write your implementation of displayMessage() */
