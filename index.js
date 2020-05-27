@@ -26,6 +26,6 @@ function greet(timeString) {
 // When the function runs it should update the text inside the #greeting node with the content of the argument.
 // It does not return anything.
 // <h1 id="greeting"></h1>
-function displayMessage(greeting) {
-  document.getElementById('greeting').innerText = greeting;
+function displayMessage(message) {
+  document.getElementById('greeting').innerText = message;
 }
