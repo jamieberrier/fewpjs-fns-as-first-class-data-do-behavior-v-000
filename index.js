@@ -12,7 +12,8 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(time) {
   const num = time.split(:);
-  if (num[0]) {
+  const hour = num[0].parseInt();
+  if () {
 
   } else {
 
