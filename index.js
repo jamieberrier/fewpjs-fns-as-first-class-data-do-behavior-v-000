@@ -16,9 +16,9 @@ function greet(time) {
   if (hour < 12) {
 
   } else if (true) {
-    
+
   } else {
-    
+
   }
 }
 /* Write your implementation of displayMessage() */
